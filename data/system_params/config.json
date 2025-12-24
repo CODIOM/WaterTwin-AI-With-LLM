@@ -1,0 +1,7 @@
+{
+    "runoff_coefficient": 0.9,
+    "evaporation_loss_rate": 0.02,
+    "critical_threshold_pct": 15.0,
+    "default_roof_area": 500,
+    "default_tank_capacity": 15000
+}
