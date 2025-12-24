@@ -6,6 +6,9 @@
 <img src="codiom.jpeg" width="180px" alt="" style="margin-bottom: 10px;"/>
 
 # <code>WATERTWIN AI: LLM-DRIVEN DIGITAL TWIN</code>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/51fd7451-e708-4fd2-a70e-caac8746781a" width="300" height="300" alt="WaterTwin AI Dashboard">
+</div>
 
 **CODIOM**
 
