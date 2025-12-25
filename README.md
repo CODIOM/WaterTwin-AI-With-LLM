@@ -35,6 +35,7 @@
 - [ Solution](#-solution)
 - [AI & LLM Integration](#-ai--llm-integration)
 - [ Key Features](#-key-features)
+- [ Installation & Usage](#️-installation--usage)
 - [ Tech Stack](#-tech-stack)
 - [ System Architecture](#️-system-architecture)
 - [ Data Sources](#-data-sources)
@@ -91,6 +92,52 @@ Rainwater management in urban areas often suffers from a lack of proactive intel
 | **Industrial UI** | Dark-themed Plotly Gauge charts and metric dashboards | ✅ Done |
 ---
 
+## Installation & Usage
+
+To run **WaterTwin AI** locally, follow these steps.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/CODIOM/WaterTwin-AI-With-LLM
+cd WaterTwin-AI-With-LLM
+```
+### 2. Environment Setup
+Create a virtual environment (optional but recommended) and install dependencies.
+
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate (Windows)
+venv\Scripts\activate
+
+# Activate (Mac/Linux)
+source venv/bin/activate
+
+# Install requirements
+pip install -r requirements.txt
+```
+### 3. Configure API Keys
+This project uses Google Gemini 2.0 Flash. You need to set up your API key.
+- Create a .env file in the root directory.
+- Add your Google API key as shown below:
+  
+```bash
+GEMINI_API_KEY="YOUR_GEMINI_API_KEY_HERE"
+```
+### 4. Run the Dashboard
+Launch the Streamlit application:
+```bash
+streamlit run app.py
+```
+### A Small Detail You Should Pay Attention To:
+To ensure these instructions work correctly, you must have a **`requirements.txt`** file in your project folder. If you haven't created one yet, you can create it by typing the following code into your terminal:
+
+```bash
+pip freeze > requirements.txt
+```
+
+---
 ##  Tech Stack
 ### AI & Machine Learning
 <img src="https://img.shields.io/badge/Gemini_2.0_Flash-4285F4.svg?style=for-the-badge&logo=Google-Gemini&logoColor=white" alt="Gemini"> <img src="https://img.shields.io/badge/scikit--learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"> <img src="https://img.shields.io/badge/NumPy-013243.svg?style=for-the-badge&logo=NumPy&logoColor=white" alt="NumPy">
