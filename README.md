@@ -1,6 +1,5 @@
 <div id="top">
 
-<!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
 <img src="codiom.jpeg" width="180px" alt="" style="margin-bottom: 10px;"/>
